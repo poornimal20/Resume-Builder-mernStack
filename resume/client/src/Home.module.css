@@ -1,0 +1,228 @@
+.container {
+  position: relative;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.resumeIcon {
+  position: absolute;
+  align-items: right;
+  top: 1px;
+  right: 100px;
+  width: 400px;  /* Adjust size as needed */
+  height: 300px;
+}
+
+.left {
+  flex: 1;
+  padding-top: 100px;
+  padding-right: 300px;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.heading {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  padding-right: 50px;
+  margin-right: 300px;
+}
+
+.heading span {
+  background-clip: text;
+  background-image: linear-gradient(to right, #239ce2, #0f2561);
+  color: transparent;
+}
+
+.heading1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  padding-right: 200px;
+  margin-right: 200px;
+}
+
+.heading1 span {
+  background-clip: text;
+  background-image: linear-gradient(to right, #239ce2, #05143f);
+  color: transparent;
+}
+
+.getstarted {
+  margin-top: 20px;
+  align-items: center;
+  padding-left: 100px;
+}
+
+.getStartedButton {
+  padding: 20px 30px;
+  background-color: #239ce2;  /* Use your desired color */
+  color: white;
+  text-decoration: none;
+  border-radius: 7px;
+  font-size: 16px;
+  width: 10px;
+}
+
+.getStartedButton:hover {
+  background-color: #1a73e8;  /* Use your desired hover color */
+}
+
+.content {
+  text-align: left;
+}
+
+/* .coloredText {
+  font-size: 40px;  
+  color: #000000;  
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 700px;
+}
+
+.customParagraph {
+  font-size: 20px;  
+  color: #1a1d2f;  
+  margin-top: 10px;
+  padding-left: 700px;
+  padding-bottom: 100px;
+  font-style: italic;
+}
+
+.someImage {
+  width: 400px;  
+  height: 400px;
+  top:80px;
+  margin-left: 10px;
+  padding-bottom: 100px;
+} */
+
+.imageTextContainer {
+  display: flex;
+  align-items: center;
+}
+
+.coloredText {
+  font-size: 40px;  
+  color: #020202;  
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+  padding-left: 300px;
+  padding-bottom: 10px;
+}
+
+.someImage {
+  width: 1000px;  
+  height: 400px;
+  margin-right: 10px;  
+}
+
+.customParagraph {
+  font-size: 20px;  
+  color: #2b2a2a;  
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  padding-left: 150px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.heading3 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  padding-left: 300px;
+  padding-top:90px;
+}
+
+.heading3 span {
+  background-clip: text;
+  background-image: linear-gradient(to right, #239ce2, #05143f);
+  color: transparent;
+  padding-right: 200px;
+}
+
+.heading4 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  padding-left: 100px;
+  padding: top 30px;
+  padding-bottom: 30px;
+}
+
+.someImage1 {
+  width: 100px;  
+  height: 100px;
+  margin-bottom: 10px; 
+  }
+
+.rightimg1 {
+  width: 300px;  
+  height: 300px;
+  padding-top: 0px;
+}
+
+.customParagraph {
+  font-size: 2rem;  /* Adjust size as needed */
+  color: #333;  /* Use your desired color */
+  margin-top: 10px;
+}
+
+.someImage2 {
+  width: 100px;  
+  height: 100px;
+  margin-bottom: 10px;   /* Space between the two images */
+}
+
+.rightimg2 {
+  width: 200px;  
+  height: 400px;
+  padding-top: 50px;
+
+}
+
+.someImage3 {
+  width: 100px;  
+  height: 100px;
+  margin-bottom: 10px;   
+}
+
+.rightimg3 {
+  width: 200px;  
+  height: 400px;
+  padding-top: 50px;
+}
+
+.someImage4 {
+  width: 100px;  
+  height: 100px;
+  margin-bottom: 10px;  
+}
+
+.rightimg4 {
+  width: 200px;  
+  height: 400px;
+  padding-top: 50px;
+}
+
+.someImage5 {
+  width: 100px;  
+  height: 100px;
+  margin-bottom: 10px;  
+}
+
+.rightimg5 {
+  width: 200px;  
+  height: 400px;
+  padding-top: 50px;
+}
+
